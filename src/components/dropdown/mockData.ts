@@ -1,6 +1,7 @@
 export const listBks = [
   { id: 83921, name: 'Deutsche Bank Madrid' },
   { id: 25874, name: 'Deutsche Bank Paris' },
+  { id: 523627, name: 'Volksbank' },
   { id: 64821, name: 'Deutsche Bank Amsterdam' },
   { id: 75928, name: 'Deutsche Bank Mexico City' },
   { id: 57204, name: 'Deutsche Bank Frankfurt Branch' },
