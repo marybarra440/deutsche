@@ -429,7 +429,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'July 4, 2014',
         description: 'Transfer Payment from Eric~Frank Truck Company',
         status: 'Success',
-        amount_usd: 105000.0
+        amount_usd: 10500.0
       },
       {
         dateTime: 'March 10, 2010',
