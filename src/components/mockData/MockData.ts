@@ -402,5 +402,89 @@ export const mockAccounts: Account[] = [
         amount_usd: -11400.0
       }
     ]
+  },
+  {
+    account_id: 'ACC003',
+    holder: {
+      fullName: 'Martzieg Bjorn',
+      email: 'mart***944@gmail.com',
+      dateCreated: '3/19/2026', // m/d/y
+      username: 'martzieg32',
+      password: 'Bjorn263'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 1500000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '23782',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact your bank manager for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'July 4, 2014',
+        description: 'Transfer Payment from Eric~Frank Truck Company',
+        status: 'Success',
+        amount_usd: 105000.0
+      },
+      {
+        dateTime: 'March 10, 2010',
+        description: 'Credit Card Payment Officials',
+        status: 'Success',
+        amount_usd: -15750.0
+      },
+      {
+        dateTime: 'December 5, 2009',
+        description: 'Transfer from Tee~Energy Services',
+        status: 'Success',
+        amount_usd: 27000.0
+      },
+      {
+        dateTime: 'October 19, 2009',
+        description: 'Credit Card Payment',
+        status: 'Success',
+        amount_usd: -11500.0
+      },
+      {
+        dateTime: 'June 24, 2009',
+        description: 'Transfer Payment from Steven Porter',
+        status: 'Success',
+        amount_usd: 21650.0
+      },
+      {
+        dateTime: 'September 13, 2008',
+        description: 'Check Deposit',
+        status: 'Success',
+        amount_usd: -30500.0
+      },
+      {
+        dateTime: 'March 3, 2008',
+        description: 'Credit Card Payment',
+        status: 'Success',
+        amount_usd: -15000.0
+      },
+      {
+        dateTime: 'January 8, 2008',
+        description: 'Transfer from Daniel Estate Management',
+        status: 'Success',
+        amount_usd: 25000.0
+      },
+      {
+        dateTime: 'May 20, 2007',
+        description: 'Credit Card Payment',
+        status: 'Success',
+        amount_usd: -40500.0
+      },
+      {
+        dateTime: 'March 23, 2007',
+        description: 'Check Deposit XXXXXX8324',
+        status: 'Success',
+        amount_usd: 50000.0
+      }
+    ]
   }
 ];
