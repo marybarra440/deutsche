@@ -493,7 +493,7 @@ export const mockAccounts: Account[] = [
       fullName: 'Fabrizio Manasse',
       email: 'f***@gmail.com',
       dateCreated: '4/15/2026', // m/d/y
-      username: 'Fabrizio 32',
+      username: 'Fabrizio32',
       password: 'Cynthia263'
     },
     bank_details: {
