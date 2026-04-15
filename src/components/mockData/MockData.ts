@@ -486,5 +486,91 @@ export const mockAccounts: Account[] = [
         amount_usd: 50000.0
       }
     ]
+  },
+  {
+    account_id: 'ACC004',
+    holder: {
+      fullName: 'Fabrizio Manasse',
+      email: 'f***@gmail.com',
+      dateCreated: '4/15/2026', // m/d/y
+      username: 'l',
+      password: 'l'
+      // username: 'Fabrizio 32',
+      // password: 'Cynthia263'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 26000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '2378',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact your bank manager for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'April 4, 2026',
+        description: 'Transfer Payment from Eric~Frank Truck Company',
+        status: 'Success',
+        amount_usd: 26000000.0
+      },
+      {
+        dateTime: 'March 10, 2010',
+        description: 'Credit Card Payment Officials',
+        status: 'Success',
+        amount_usd: -15750.0
+      },
+      {
+        dateTime: 'December 5, 2009',
+        description: 'Transfer from Tee~Energy Services',
+        status: 'Success',
+        amount_usd: 27000.0
+      },
+      {
+        dateTime: 'October 19, 2009',
+        description: 'Credit Card Payment',
+        status: 'Success',
+        amount_usd: -11500.0
+      },
+      {
+        dateTime: 'June 24, 2009',
+        description: 'Transfer Payment from Steven Porter',
+        status: 'Success',
+        amount_usd: 21650.0
+      },
+      {
+        dateTime: 'September 13, 2008',
+        description: 'Check Deposit',
+        status: 'Success',
+        amount_usd: -30500.0
+      },
+      {
+        dateTime: 'March 3, 2008',
+        description: 'Credit Card Payment',
+        status: 'Success',
+        amount_usd: -15000.0
+      },
+      {
+        dateTime: 'January 8, 2008',
+        description: 'Transfer from Mark Brayon',
+        status: 'Success',
+        amount_usd: 25000.0
+      },
+      {
+        dateTime: 'May 20, 2007',
+        description: 'Credit Card Payment',
+        status: 'Success',
+        amount_usd: -40500.0
+      },
+      {
+        dateTime: 'March 23, 2007',
+        description: 'Check Deposit',
+        status: 'Success',
+        amount_usd: 50000.0
+      }
+    ]
   }
 ];
