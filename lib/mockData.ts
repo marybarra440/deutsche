@@ -138,7 +138,7 @@ export const users: User[] = [
     firstName: 'Adele',
     lastName: 'Emilia',
     email: 'sparka***24@gmail.com',
-    username: 'Sparkaseberliner41',
+    username: 'Emily101',
     password: 'Kaseber2810',
     transactionCode: '7984',
     createdAt: '2026-7-12', // y-m-d
@@ -152,10 +152,24 @@ export const users: User[] = [
         isPrimary: true,
         transactions: [
           {
+            merchant: 'Check Deposit~Government treasury assistance (Cristina campoo)',
+            category: '****5967',
+            date: 'Jul 10, 2026',
+            amount: -10000.0,
+            status: 'success'
+          },
+          {
+            merchant: 'Transfer from Cristina campoo',
+            category: '****6483',
+            date: 'Jul 6, 2026',
+            amount: 200.0,
+            status: 'success'
+          },
+          {
             merchant: 'Transfer from Goldline Resources Ltd.',
             category: '****7012',
             date: 'Jun 30, 2026',
-            amount: 2079000.0,
+            amount: 2078800.0,
             status: 'success'
           },
           {
